@@ -1,2 +1,0 @@
-#忽略my-react-app/node_modules文件夹及文件夹下文件
-my-react-app/node_modules/
