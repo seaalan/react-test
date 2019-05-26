@@ -83,8 +83,9 @@ class TestOfState extends Component {
         <div>
           <button onClick={()=>{
             //点击后可修改state值
+            
             this.setState({
-              count: count + 1,
+              count: this.state.count + 1,
             })
           }}>加1</button>
           <p>{this.state.count}</p>
